@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- font lacquer -->
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <h2>Choose your weapon</h2>
+    </header>
+    <main>
+        <h3>First to score 5 wins the game</h3>
+        <h3 class="select">The computer selected: <div id="selection"></div></h3>
+        <div class="flex imgs">
+            <img id = "rock" src="images/rock.png" alt="Rock">
+            <img id = "paper" src="images/paper.png" alt="Paper">
+            <img id = "scissors" src="images/scissors.png" alt="Scissors">
+        </div>
+    </main>
+    <footer>
+        <p>You<span class="diff-font">:</span> <span id="score1">0</span></p>
+        <p>Computer<span class="diff-font">:</span> <span id="score2">0</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

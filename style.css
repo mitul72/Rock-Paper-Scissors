@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lacquer', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to right, white, grey);
+    max-width: 100vw;
+    max-height: 100vh;
+    letter-spacing: 1px;
+}
+img {
+    width: 70px;
+}
+
+header {
+    font-size: 20px;
+    margin-bottom: 3vh;
+}
+h2 {
+    margin-top: 3vh;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs {
+    gap: 8vw;
+    margin: 3vh 0px;
+    transition: all ease-in-out 1s;
+}
+
+
+
+h3 {
+    font-size: 16px;
+}
+
+footer {
+    font-size: 26px;
+}
+footer * {
+    /* margin: 15px 0px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.imgs img:hover {
+    background-color: #9da0a2;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+.imgs img:active{
+    background-color: #8b8d8f; 
+}
+
+.diff-font {
+    font-family: "sans-serif";
+}
+
+#winning, #losing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.winning-body {
+    /* background: none;
+    background-color: #64A8CE; */
+    background: linear-gradient(to right,#6473CE,#A8AAE1 );
+    color: #EEEDFF;
+}
+
+#winning a {
+    margin-top: 80px;
+    max-width: 100px;
+    text-decoration: none;
+    color: #EEEDFF;
+    padding: 10px 30px;
+    border: 1.5px solid #00C896;
+    border-radius: 15px;
+    transition: background-color 200ms ease-in-out;
+}
+
+#winning a:hover {
+    background-color: #5bc6ab;
+}
+
+
+
+.losing-body {
+    /* background: none;
+    background-color: #64A8CE; */
+    background: linear-gradient(to right,#ff6e3d,#fe7a75 );
+    color: #FFE6D6;
+    font-family: "Open Sans";
+}
+
+#losing a {
+    margin-top: 80px;
+    max-width: 100px;
+    text-decoration: none;
+    color: #FFE6D6;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: 1.5px solid #7795d6;
+    border-radius: 15px;
+    transition: background-color 200ms ease-in-out;
+}
+
+#losing a:hover {
+    background-color: #6281c5;
+}
+
+/* 
+.select {
+    max-width: 240px;
+} */
+
+@media (max-width: 768px) {
+    body * {
+        max-width: 400px;
+    }
+}
+
